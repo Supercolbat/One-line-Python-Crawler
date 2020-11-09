@@ -17,8 +17,7 @@ I got inspiration from this [BrainF* interpreter](https://github.com/davekch/b) 
 |~~-d *depth*~~|~~(optional) depth of crawl. default: 5~~|
 
 ## Usage Examples
-*This program has to be run through a terminal.*
-
+*This program has to be run through a terminal.*<br><br>
 Crawl `https://www.google.com/` and write to `links.txt`:
 
 `$ python scraper.py -u https://www.google.com/ -f links.txt`
