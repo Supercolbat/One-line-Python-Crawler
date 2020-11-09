@@ -20,6 +20,7 @@ I got inspiration from this [BrainF* interpreter](https://github.com/davekch/b) 
 *This program has to be run through a terminal.*
 
 Crawl `https://www.google.com/` and write to `links.txt`:
+
 `$ python scraper.py -u https://www.google.com/ -f links.txt`
 
 ## Issues
