@@ -31,8 +31,8 @@ with type("Crawler", (), {
                 if link.has_attr("href") and not link["href"] in crawler.links and not link["href"][0] == "#"
             ])()
 
-            # repeat code above "depth" times
-            for lvl in range(depth)
+            # repeat code above "depth" amount of times (WIP)
+            # for lvl in range(depth)
         ])(),
         # write links to file and close
         crawler.file.write("\n".join(crawler.links)),
@@ -46,4 +46,4 @@ with type("Crawler", (), {
 # run the code above if there isn't a -h (help) flag in runtime args
 if not "-h" in __import__("sys").argv else\
 # otherwise show the help msg
-print(f"usage: python {__import__('os').path.basename(__file__)} -u <url> -f <file>\n\nMade in 1 line of code by Joey Lent.\nIf nothing is found in outputted file, then an error occured or no links were found on the site.\nIf the program hangs, then the site is preventing a request from being made.")
+print(f"usage: python {__import__('os').path.basename(__file__)} -u <url> -f <file>\n\nMade in 1 line of code by Joey Lent.\nIf nothing is outputted when the program ends, then either an error occured or no links were found on the website.\nIf the program hangs, then the site is preventing a request from being made.")
