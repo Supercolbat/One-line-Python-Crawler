@@ -3,7 +3,7 @@
 I got inspiration from this [BrainF* interpreter](https://github.com/davekch/b) that was written using Python in only one line.
 The rules of this challenge is to write a Python program in only one line **without** using semicolons or `eval()`/`exec()`.
 
-| |`crawler.py`|`crawler.min.py`|
+| |crawler.py|crawler.min.py|
 |--|--|--|
 |one line|:x:| :heavy_check_mark:|
 |commented|:heavy_check_mark:|:x:|
