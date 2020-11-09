@@ -1,6 +1,7 @@
 # One line Python Crawler
 
-I got inspiration from this [BrainF* interpreter](https://github.com/davekch/b) that was written using Python in only one line. 
+I got inspiration from this [BrainF* interpreter](https://github.com/davekch/b) that was written using Python in only one line.
+The rules of this challenge is to write a Python program in only one line **without** using semicolons or `eval()`/`exec()`.
 
 | |`crawler.py`|`crawler.min.py`|
 |--|--|--|
